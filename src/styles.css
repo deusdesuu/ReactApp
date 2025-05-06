@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    background-color: #333;
+}
+body {
+    margin: 0;
+}
+.Reign {
+    padding-top: 5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.alignleft {
+    text-align: left;
+}
+.component {
+    margin: 1rem;
+    text-align: center;
+}
+.ReignPic img {
+    max-width:100%;
+    width:100%;
+    height: auto;
+}
+.divType1 {
+    max-width: 100%;
+    height: fit-content;
+    padding: 1rem;
+    background-color: #b272fc;
+    border-radius: 3rem;
+    margin: 2rem 10rem 2rem 10rem;
+}
+.divType1 * {
+    background-color: #b272fc;
+}
+.divType2 {
+    max-width: 100%;
+    height: fit-content;
+    padding: 1rem 2rem 1rem 2rem ;
+    background-color: rgb(220, 168, 250);
+    border-radius: 3rem;
+    margin: 2rem 10rem 2rem 10rem;
+}
+.divType2 * {
+    background-color: rgb(220, 168, 250);
+}
+.divType3 {
+    max-width: 100%;
+    height: fit-content;
+    padding: 1rem 2rem 1rem 2rem ;
+    background-color: #b272fc;
+    border-radius: 3rem;
+    margin: 2rem 10rem 2rem 10rem;
+}
+.split {
+    display: flex;
+    padding: auto;
+}
+.split * {
+    margin: auto;
+}
+.splitText {
+    width: 50%;
+    padding: 1rem 3rem 1rem 1rem;
+}
+.splitText80 {
+    width: 80%;
+    padding: 1rem 3rem 1rem 1rem;
+}
+.splitText60 {
+    width: 60%;
+    padding: 1rem 3rem 1rem 1rem;
+}
+.Text {
+    width: 100%;
+    padding: 1rem 3rem 1rem 1rem;
+}
+.splitImg {
+    max-width:50%;
+    width: 50%;
+}
+.split img {
+    max-width:100%;
+    height: auto;
+    border-radius: 3rem;
+}
+p {
+    font-size: 1.5rem;
+}
